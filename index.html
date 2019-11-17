@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>butterflight</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./img/dist/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/dist/favicon.ico" type="image/x-icon">
+    <!--m styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--slider styles-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+<body>
+    <div class="header__wrapper">
+        <header class="header">
+            <section class="header__logo">
+                <a href="#" class="logo__link"><img alt="logo" class="logo lazy"
+                src="http://via.placeholder.com/40x40" 
+                data-src="./img/dist/header/logo.png" 
+                data-srcset="./img/dist/header/logo.png"></a>
+                <h1 class="logo__title">butterflight</h1>
+            </section>
+            <section class="header__search">
+                <img alt="magnifier" class="magnifier lazy"
+                src="http://via.placeholder.com/20x20"
+                data-src="./img/dist/header/search.svg" 
+                data-srcset="./img/dist/header/search.svg">
+                <input type="text" class="search" placeholder="search">
+            </section>
+        </header>
+    </div>
+    <main class="main">
+        <div class="swiper-container">
+            <section class="slider swiper-wrapper">
+                <figure class="slider__item_wrapper swiper-slide">
+                    <div class="slider__item">
+                        <img src="http://via.placeholder.com/150x150" 
+                        class="slider__img"
+                        alt="example">
+                        <p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nunc nec mollis justo. In pellentesque nibh quis ipsum tincidunt laoreet. 
+                            Sed non euismod nunc. Mauris imperdiet velit a lectus laoreet sodales. 
+                            Aenean sagittis elit vitae libero placerat, vel ultrices ex aliquet.</p>
+                    </div>
+                </figure>
+                <figure class="slider__item_wrapper swiper-slide">
+                    <div class="slider__item">
+                        <img src="http://via.placeholder.com/150x150" 
+                        class="slider__img"
+                        alt="example">
+                        <p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nunc nec mollis justo. In pellentesque nibh quis ipsum tincidunt laoreet. 
+                            Sed non euismod nunc. Mauris imperdiet velit a lectus laoreet sodales. 
+                            Aenean sagittis elit vitae libero placerat, vel ultrices ex aliquet.</p>
+                    </div>
+                </figure>
+                <figure class="slider__item_wrapper swiper-slide">
+                    <div class="slider__item">
+                        <img src="http://via.placeholder.com/150x150" 
+                        class="slider__img"
+                        alt="example">
+                        <p class="slider__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Nunc nec mollis justo. In pellentesque nibh quis ipsum tincidunt laoreet. 
+                            Sed non euismod nunc. Mauris imperdiet velit a lectus laoreet sodales. 
+                            Aenean sagittis elit vitae libero placerat, vel ultrices ex aliquet.</p>
+                    </div>
+                </figure>
+            </section>
+            <div class="swiper-pagination"></div>
+        </div>
+        <form action="#" class="form">
+            <label for="emailPhone" class="form__label">Email or phone</label>
+            <input type="text" class="form__input" id="emailPhone" placeholder="example@smth.com">
+            <div class="form__name-group">
+                <div class="name-group__wrapper">
+                    <label for="name" class="form__label">First Name</label>
+                    <input type="text" class="form__input form__input_sm" id="name" placeholder="Jhon">
+                </div>
+                <div class="name-group__wrapper">
+                    <label for="secondName" class="form__label">Last Name</label>
+                    <input type="text" class="form__input form__input_sm" 
+                    id="secondName" placeholder="Green">
+                </div>
+            </div>
+            <label for="password" class="form__label">Password</label>
+            <input type="password" class="form__input" placeholder="************" id="password">
+            <label for="passwordG" class="form__label">Repeat password</label>
+            <input type="password" class="form__input" placeholder="************" id="passwordG">
+            <label for="birth" class="form__label">Birth date</label>
+            <div class="birth-select" id="birth">
+                <input type="text" class="form__input_birth" placeholder="dd">
+                <input type="text" class="form__input_birth" placeholder="mm">
+                <input type="text" class="form__input_birth" placeholder="yyyy">
+            </div>
+            <div class="sex">
+                <div class="sex__group">
+                    <div class="form__input_radio"></div>
+                    <label for="maleSex" class="form__label">male</label>
+                </div>
+                <div class="sex__group">
+                    <div class="form__input_radio active"></div>
+                    <label for="femaleSex" class="form__label">female</label>
+                </div>
+
+            </div>
+            <input type="submit" value="register" class="reg__btn"><br>
+            <a href="#" class="form__link">Have you already had account?</a>
+        </form>
+    </main>
+    <footer class="footer">
+        <section class="footer__content">
+            <h1 class="footer__title">© 2019 butterflight.  All rights reserved.</h1>
+        </section>
+    </footer>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+    <!--slider JS-->
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <!--my JS-->
+    <script src="js/main.js"></script>
+</body>
+</html>
